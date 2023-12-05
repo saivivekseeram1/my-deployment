@@ -6,7 +6,7 @@ pipeline {
         
         stage('CheckOut') {
             steps {
-                git url: "https://github.com/saivivekseeram1/my-deployment/.git", branch: "main"
+                git url: "https://github.com/saivivekseeram1/my-deployment.git", branch: "main"
                 sh 'echo Passed'
             }
         }
